@@ -1,0 +1,53 @@
+.product {
+    padding: 25px;
+
+    .product__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+        .product__item {
+            width: 270px;
+            margin: 0 auto;
+            overflow: hidden;
+            text-align: center;
+            .product__text {
+                text-align: center;
+                font-family: "Vibur", cursive;
+            }
+            .product__img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 11px;
+                text-align: center;
+                width: 213px;
+                height: 310px;
+                background: url('https://wallytally.ru/upload/iblock/de1/de1fa37da355f7697215a9ee38accaa6.jpg ') center (center / cover) no-repeat;
+                margin-top: 15px;
+            }
+            .product__cost {
+                text-align: center;
+                font-family: "Vibur", cursive;
+                font-size: 22px;
+                margin: 10px 0 10px 0;
+            }
+            .product__button {
+                width: 120px;
+                height: 40px;
+                border-radius: 5px;
+                background-color: #d42861;
+                border: none;
+                color: white;
+                font-size: 15px;
+                font-weight: 300;
+                text-align: center;
+                margin: 10px auto 0 auto;
+                border-radius: 55px;
+                cursor: pointer;
+            }
+        }
+    }
+}            
